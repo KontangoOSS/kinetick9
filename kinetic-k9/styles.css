@@ -3,7 +3,8 @@
    Main Stylesheet
    Color Palette:
    - Navy Blue: #1a2355
-   - Green:    ##23cf21
+   - Green:     #23cf21
+   - Dark green #22CC28
    - Light Gray:#f5f6fa
    - White:     #ffffff
    - Dark Text: #1a2355
@@ -73,7 +74,7 @@ p { font-size: 1.05rem; color: #3a4470; }
   display: block;
   width: 60px;
   height: 4px;
-  background: #e87722;
+  background: #23cf21;
   border-radius: 2px;
   margin: 0.75rem auto 1rem;
 }
@@ -91,14 +92,14 @@ p { font-size: 1.05rem; color: #3a4470; }
 }
 
 .btn-primary {
-  background: #e87722;
+  background: #23cf21;
   color: #ffffff;
 }
 
 .btn-primary:hover {
-  background: #cf6510;
+  background:#22CC28;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(232, 119, 34, 0.35);
+  box-shadow: 0 8px 20px rgba(20, 94, 22, 0.35);
 }
 
 .btn-secondary {
@@ -115,12 +116,12 @@ p { font-size: 1.05rem; color: #3a4470; }
 
 .btn-outline {
   background: transparent;
-  color: #e87722;
-  border: 2px solid #e87722;
+  color: #23cf21;
+  border: 2px solid #23cf21;
 }
 
 .btn-outline:hover {
-  background: #e87722;
+  background: #23cf21;
   color: #ffffff;
   transform: translateY(-2px);
 }
@@ -170,7 +171,7 @@ p { font-size: 1.05rem; color: #3a4470; }
 
 .nav-logo-text .tagline {
   font-size: 0.7rem;
-  color: #e87722;
+  color: #23cf21;
   letter-spacing: 2px;
   font-weight: 600;
   text-transform: uppercase;
@@ -196,22 +197,22 @@ p { font-size: 1.05rem; color: #3a4470; }
 .nav-links a:hover,
 .nav-links a.active {
   color: #ffffff;
-  background: rgba(232, 119, 34, 0.2);
+  background: rgba(20, 94, 22, 0.2);
 }
 
 .nav-links a.active {
-  color: #e87722;
+  color: #23cf21;
 }
 
 .nav-cta {
-  background: #e87722 !important;
+  background: #23cf21 !important;
   color: #ffffff !important;
   border-radius: 50px !important;
   padding: 0.5rem 1.25rem !important;
 }
 
 .nav-cta:hover {
-  background: #cf6510 !important;
+  background: #22CC28 !important;
 }
 
 /* Hamburger */
@@ -248,7 +249,7 @@ p { font-size: 1.05rem; color: #3a4470; }
   right: -100px;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(232,119,34,0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(20, 94, 22, 0.15) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -259,7 +260,7 @@ p { font-size: 1.05rem; color: #3a4470; }
   left: -50px;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(232,119,34,0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(20, 94, 22, 0.8) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -279,9 +280,9 @@ p { font-size: 1.05rem; color: #3a4470; }
 
 .hero-badge {
   display: inline-block;
-  background: rgba(232,119,34,0.2);
-  color: #e87722;
-  border: 1px solid rgba(232,119,34,0.4);
+  background: rgba(20,94,22,0.2);
+  color: #23cf21;
+  border: 1px solid rgba(20, 94, 22, 0.4);
   padding: 0.4rem 1rem;
   border-radius: 50px;
   font-size: 0.85rem;
@@ -297,7 +298,7 @@ p { font-size: 1.05rem; color: #3a4470; }
 }
 
 .hero-content h1 span {
-  color: #e87722;
+  color: #23cf21;
 }
 
 .hero-content p {
@@ -333,7 +334,7 @@ p { font-size: 1.05rem; color: #3a4470; }
 
 /* --- SERVICES STRIP --- */
 .services-strip {
-  background: #e87722;
+  background: #23cf21;
   padding: 1.25rem 2rem;
 }
 
@@ -389,12 +390,12 @@ p { font-size: 1.05rem; color: #3a4470; }
   position: absolute;
   bottom: -20px;
   right: -20px;
-  background: #e87722;
+  background: #23cf21;
   color: #ffffff;
   padding: 1.25rem 1.5rem;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(232,119,34,0.3);
+  box-shadow: 0 10px 30px rgba(20,94,22,0.3);
 }
 
 .about-accent-box .number {
@@ -434,7 +435,7 @@ p { font-size: 1.05rem; color: #3a4470; }
 
 .features-list li::before {
   content: '✦';
-  color: #e87722;
+  color: #23cf21;
   font-size: 0.85rem;
   flex-shrink: 0;
 }
@@ -470,14 +471,14 @@ p { font-size: 1.05rem; color: #3a4470; }
   left: 0;
   width: 4px;
   height: 100%;
-  background: #e87722;
+  background: #23cf21;
   transform: scaleY(0);
   transition: transform 0.3s ease;
   transform-origin: bottom;
 }
 
 .program-card:hover {
-  border-color: rgba(232,119,34,0.3);
+  border-color: rgba(20,94,22,0.3);
   transform: translateY(-6px);
   box-shadow: 0 20px 50px rgba(26,35,85,0.1);
 }
@@ -538,14 +539,14 @@ p { font-size: 1.05rem; color: #3a4470; }
   top: 1rem;
   right: 1.5rem;
   font-size: 5rem;
-  color: #e87722;
+  color: #23cf21;
   opacity: 0.25;
   font-family: Georgia, serif;
   line-height: 1;
 }
 
 .stars {
-  color: #e87722;
+  color: #23cf21;
   font-size: 1.1rem;
   margin-bottom: 1rem;
   letter-spacing: 2px;
@@ -568,7 +569,7 @@ p { font-size: 1.05rem; color: #3a4470; }
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: #e87722;
+  background: #23cf21;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -591,7 +592,7 @@ p { font-size: 1.05rem; color: #3a4470; }
 
 /* --- CTA BANNER --- */
 .cta-banner {
-  background: linear-gradient(135deg, #e87722, #cf6510);
+  background: linear-gradient(135deg, #23cf21, #22CC28);
   padding: 4rem 2rem;
   text-align: center;
 }
@@ -612,7 +613,7 @@ p { font-size: 1.05rem; color: #3a4470; }
 
 .cta-banner .btn-white {
   background: #ffffff;
-  color: #e87722;
+  color: #23cf21;
   font-weight: 800;
 }
 
@@ -676,7 +677,7 @@ footer {
 }
 
 .footer-col ul li a:hover {
-  color: #e87722;
+  color: #23cf21;
 }
 
 .footer-contact-item {
@@ -688,7 +689,7 @@ footer {
   color: #a8b3d4;
 }
 
-.footer-contact-item .icon { color: #e87722; font-size: 1rem; margin-top: 2px; }
+.footer-contact-item .icon { color: #23cf21; font-size: 1rem; margin-top: 2px; }
 
 .footer-bottom {
   max-width: 1200px;
@@ -708,7 +709,7 @@ footer {
 }
 
 .footer-bottom a {
-  color: #e87722;
+  color: #23cf21;
 }
 
 /* ============================================
@@ -729,7 +730,7 @@ footer {
   right: 10%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(232,119,34,0.2) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(20,94,22,0.2) 0%, transparent 70%);
 }
 
 .page-banner h1 {
@@ -758,7 +759,7 @@ footer {
   z-index: 1;
 }
 
-.breadcrumb a { color: #e87722; font-weight: 600; }
+.breadcrumb a { color: #23cf21; font-weight: 600; }
 .breadcrumb span { color: #6b7280; }
 .breadcrumb .current { color: #ffffff; }
 
@@ -803,7 +804,7 @@ footer {
 .stat-number {
   font-size: 2.2rem;
   font-weight: 900;
-  color: #e87722;
+  color: #23cf21;
   line-height: 1;
 }
 
@@ -891,7 +892,7 @@ footer {
 .team-card-body h3 { margin-bottom: 0.25rem; font-size: 1.15rem; }
 
 .team-role {
-  color: #e87722;
+  color: #23cf21;
   font-weight: 700;
   font-size: 0.85rem;
   letter-spacing: 0.5px;
@@ -921,7 +922,7 @@ footer {
 
 .cert-badge {
   background: rgba(255,255,255,0.07);
-  border: 1px solid rgba(232,119,34,0.35);
+  border: 1px solid rgba(20,94,22,0.35);
   color: #ffffff;
   padding: 0.85rem 1.75rem;
   border-radius: 50px;
@@ -960,7 +961,7 @@ footer {
   display: flex;
   flex-direction: column;
   transition: transform 0.3s, box-shadow 0.3s;
-  border-top: 4px solid #e87722;
+  border-top: 4px solid #23cf21;
 }
 
 .resource-card:hover {
@@ -976,7 +977,7 @@ footer {
 }
 
 .resource-icon-wrap {
-  background: rgba(232,119,34,0.12);
+  background: rgba(20,94,22,0.12);
   width: 52px;
   height: 52px;
   border-radius: 12px;
@@ -1026,7 +1027,7 @@ footer {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  background: #e87722;
+  background: #23cf21;
   color: #ffffff;
   padding: 0.6rem 1.25rem;
   border-radius: 50px;
@@ -1036,9 +1037,9 @@ footer {
 }
 
 .btn-download:hover {
-  background: #cf6510;
+  background: #22CC28;
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(232,119,34,0.35);
+  box-shadow: 0 6px 16px rgba(20,94,22,0.35);
 }
 
 .tips-section {
@@ -1058,13 +1059,13 @@ footer {
   background: #f5f6fa;
   border-radius: 14px;
   padding: 1.75rem;
-  border-left: 4px solid #e87722;
+  border-left: 4px solid #23cf21;
 }
 
 .tip-number {
   font-size: 2rem;
   font-weight: 900;
-  color: rgba(232,119,34,0.25);
+  color: rgba(20, 94, 22, 0.25);
   line-height: 1;
   margin-bottom: 0.5rem;
 }
@@ -1105,7 +1106,7 @@ footer {
 .contact-details li:last-child { border-bottom: none; }
 
 .contact-icon {
-  background: #e87722;
+  background: #23cf21;
   color: #ffffff;
   width: 44px;
   height: 44px;
@@ -1142,7 +1143,7 @@ footer {
   color: #1a2355;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #e87722;
+  border-bottom: 2px solid #23cf21;
 }
 
 .hours-row {
@@ -1154,7 +1155,7 @@ footer {
 
 .hours-row .day { color: #4a5580; font-weight: 600; }
 .hours-row .time { color: #1a2355; font-weight: 700; }
-.hours-row .closed { color: #e87722; font-weight: 700; }
+.hours-row .closed { color: #23cf21; font-weight: 700; }
 
 /* Contact Form */
 .contact-form-wrap {
@@ -1210,8 +1211,8 @@ footer {
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #e87722;
-  box-shadow: 0 0 0 3px rgba(232,119,34,0.12);
+  border-color: #23cf21;
+  box-shadow: 0 0 0 3px rgba(20,94,22,0.12);
   background: #ffffff;
 }
 
@@ -1303,7 +1304,7 @@ footer {
     background: #1a2355;
     padding: 1rem;
     gap: 0.25rem;
-    border-top: 2px solid #e87722;
+    border-top: 2px solid #23cf21;
   }
   .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
   .stats-row { gap: 1rem; }
